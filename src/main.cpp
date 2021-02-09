@@ -11,6 +11,9 @@ int threshold;
 int analogValue;
 
 void setup() {
+  pinMode(DigitalPin, INPUT);
+  pinMode(AnalogPin, INPUT);
+
   lcd.init();
   lcd.backlight();
 
